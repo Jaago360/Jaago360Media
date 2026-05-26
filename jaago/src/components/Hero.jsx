@@ -11,7 +11,7 @@ const Hero = () => {
   ];
 
   return (
-    <section id="home" className="relative min-h-screen flex flex-col justify-between overflow-hidden">
+    <section id="home" className="relative min-h-screen flex flex-col justify-between overflow-hidden w-full">
       {/* Clean Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-black to-gray-900">
         {/* Subtle Grid Pattern */}

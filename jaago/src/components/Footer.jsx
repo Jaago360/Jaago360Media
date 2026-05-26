@@ -98,8 +98,8 @@ const Footer = () => {
                 <FiMail className="text-news-red text-xl mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-inter text-gray-400">Email:</p>
-                  <a href="mailto:info@jaago360news.com" className="font-inter text-white hover:text-news-red transition-colors duration-300">
-                    info@jaago360news.com
+                  <a href="mailto:reach@jaago360.com" className="font-inter text-white hover:text-news-red transition-colors duration-300">
+                    reach@jaago360.com
                   </a>
                 </div>
               </div>
@@ -108,8 +108,8 @@ const Footer = () => {
                 <FiPhone className="text-news-red text-xl mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-inter text-gray-400">Phone:</p>
-                  <a href="tel:+919876543210" className="font-inter text-white hover:text-news-red transition-colors duration-300">
-                    +91 98765 43210
+                  <a href="tel:+919502151565" className="font-inter text-white hover:text-news-red transition-colors duration-300">
+                    +91 9502151565
                   </a>
                 </div>
               </div>

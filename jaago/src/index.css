@@ -11,6 +11,8 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -18,6 +20,9 @@ body {
   background-color: #050505;
   color: #ffffff;
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
 }
 
 /* Custom Scrollbar */
@@ -145,4 +150,14 @@ body {
 /* Text Stroke Utility */
 .text-stroke {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+}
+
+/* Prevent Horizontal Overflow */
+html, body {
+  overflow-x: hidden !important;
+  width: 100%;
+}
+
+* {
+  max-width: 100%;
 }
