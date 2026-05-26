@@ -51,7 +51,7 @@ const Hero = () => {
           className="hidden md:block w-full"
         >
           <img 
-            src="/JaagoLogo.png" 
+            src="/Front.png" 
             alt="Jaago 360 News Logo" 
             className="w-full h-auto object-cover"
           />
